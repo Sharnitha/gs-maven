@@ -5,6 +5,6 @@
       - master
  
  pool:
-  vmImage: 'ubuntu-latest'
+  Image : Default
   variables:
   ImageName: 'sharnithadockerhub/dfthub:$(Build.BuildId)' 
