@@ -1,0 +1,10 @@
+ name : Docker-CI
+ trigger:
+  branches:
+    include:
+      - master
+ 
+ pool:
+  vmImage: 'ubuntu-latest'
+  variables:
+  ImageName: 'sharnithadockerhub/dfthub:$(Build.BuildId)' 
